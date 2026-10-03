@@ -1,0 +1,100 @@
+import "@fontsource/rozha-one/400.css";
+import type { Site } from "./lib";
+
+export const SITE: Site = {
+  name: "Special Village Food",
+  sub: { en: "Haryanvi chulha thali · by Damdama Lake", hi: "हरियाणवी चूल्हा थाली · दमदमा झील के पास" },
+  banner: { en: "Coming as a group? Call ahead with your headcount so the chulha is ready", hi: "ग्रुप में आ रहे हैं? पहले कॉल करके लोगों की गिनती बताएं, चूल्हा तैयार मिलेगा" },
+  phone: "919671226507",
+  phoneDisplay: "+91 96712 26507",
+  lat: 28.3055168,
+  lon: 77.1290246,
+  hours: [[9, 20], [9, 20], [9, 20], [9, 20], [9, 20], [9, 20], [9, 20]],
+  price: { en: "₹200–400 per person", hi: "₹200–400 प्रति व्यक्ति" },
+  theme: {
+    dark: true,
+    bg: "#120e09",
+    bg2: "#1c160e",
+    panel: "#241c12",
+    ink: "#f6efe0",
+    ink2: "#d0c4a8",
+    ink3: "#93876c",
+    line: "#362a1a",
+    accent: "#9fd36a",
+    onAccent: "#142300",
+    display: "Rozha One",
+    weight: 400,
+    upper: false,
+  },
+  scene: "chulha",
+  align: "left",
+  hero: {
+    title: [
+      { en: "Rotis off the chulha,", hi: "चूल्हे की रोटी," },
+      { en: "white butter on top.", hi: "ऊपर सफ़ेद मक्खन।" },
+    ],
+    proof: {
+      en: "4.1 on Google from 233 reviews. A home-cooked Haryanvi thali, made in front of you, a short walk from Damdama Lake.",
+      hi: "गूगल पर 233 रिव्यू से 4.1। घर जैसी हरियाणवी थाली, आपके सामने बनी, दमदमा झील के पास।",
+    },
+    fallback: "/img/p11.jpg",
+  },
+  marquee: ["कढ़ी", "Sarson ka Saag", "बाजरे की रोटी", "Masala Chaach", "गुड़", "White Butter", "हरी चटनी", "Dal"],
+  dishes: {
+    title: { en: "Cooked where you can see it", hi: "आपकी आंखों के सामने" },
+    body: { en: "Clay pots, a chulha and a stone grinder. Reviewers noticed.", hi: "मिट्टी के बर्तन, चूल्हा और सिल-बट्टा। रिव्यू करने वालों ने ग़ौर किया।" },
+    layout: "cards",
+    items: [
+      { name: { en: "Chutney on the sil-batta", hi: "सिल-बट्टे की चटनी" }, quote: "Green chutney was made before us on the seel-batta.", img: "/img/p4.jpg" },
+      { name: { en: "Made on the chulha", hi: "चूल्हे पर बना" }, quote: "Superb desi food. Home made on the chula lovely experience. Neat and clean place.", img: "/img/p11.jpg" },
+      { name: { en: "With a lake view", hi: "झील के नज़ारे के साथ" }, quote: "Authentic, tasty Haryanvi thali with amazing vibe and perfect view of damdama lake", img: "/img/p13.jpg" },
+    ],
+  },
+  gallery: {
+    title: { en: "Mud walls, cots and a swing", hi: "मिट्टी की दीवारें, खाट और झूला" },
+    layout: "mosaic",
+    photos: [
+      { src: "/img/p1.jpg", alt: "Mud hut at Special Village Food", wide: true },
+      { src: "/img/p5.jpg", alt: "Rope swing" },
+      { src: "/img/p12.jpg", alt: "Shed with charpai cots" },
+      { src: "/img/p2.jpg", alt: "Clay pot" },
+      { src: "/img/p10.jpg", alt: "Low stools around the hearth" },
+      { src: "/img/p6.jpg", alt: "Guests eating together", wide: true },
+      { src: "/img/p9.jpg", alt: "Clay pots" },
+      { src: "/img/p14.jpg", alt: "Earthen pots" },
+    ],
+  },
+  feature: {
+    kind: "thali",
+    title: { en: "What comes on the thali", hi: "थाली में क्या आता है" },
+    body: { en: "One fixed thali, cooked fresh. Here is how guests described it.", hi: "एक तय थाली, ताज़ा बनी। मेहमानों ने इसे ऐसे बताया।" },
+    img: "/img/p3.jpg",
+    items: [
+      { label: { en: "The special thali", hi: "स्पेशल थाली" }, quote: "They serve special thali consisting of Kadhi , Saag , Dal , Mix flour roti , green chutney , gud and chaach. Luni ghee was my favourite part…" },
+      { label: { en: "Rotis on the chulha", hi: "चूल्हे की रोटी" }, quote: "Ladies of the house prepared fresh Rotis on chullah with fresh butter added on top. Dal, kadhi and saag were also tasty." },
+      { label: { en: "Saag & bajra roti", hi: "साग और बाजरे की रोटी" }, quote: "Awesome desi food, specially the masala chach, sanson ke saag and bajre ke roti with generous quantity of white butter" },
+      { label: { en: "The chapatis", hi: "रोटियां" }, quote: "chapatis full of emotions" },
+    ],
+  },
+  reviews: {
+    title: { en: "Worth the drive out", hi: "शहर से निकलने लायक" },
+    rating: 4.1,
+    dist: [160, 9, 22, 9, 33],
+    quotes: [
+      { quote: "Great experience with fresh chulha food at lake view. Must try once", stars: 5 },
+      { quote: "Need to book in advance if coming in large group.", stars: 5 },
+    ],
+  },
+  visit: {
+    title: { en: "Out by Damdama Lake", hi: "दमदमा झील के पास" },
+    img: "/img/p1.jpg",
+    alt: "Mud hut entrance at Special Village Food",
+    address: { en: "Plus code 844H+5J, Damdama, Gurugram", hi: "प्लस कोड 844H+5J, दमदमा, गुरुग्राम" },
+    note: { en: "A reviewer’s tip: “I suggest to call the owner to inform no. Of person and when you are visiting so he can make things ready for you.”", hi: "एक रिव्यू की सलाह: आने से पहले मालिक को कॉल करके लोगों की गिनती और समय बता दें, ताकि सब तैयार रहे।" },
+  },
+  waHello: {
+    en: "Hi Special Village Food, we'd like to come for the thali. Date: , time: , people: ",
+    hi: "नमस्ते स्पेशल विलेज फ़ूड, हम थाली खाने आना चाहते हैं। तारीख़: , समय: , लोग: ",
+  },
+  order: ["feature", "dishes", "gallery", "reviews", "visit"],
+};
