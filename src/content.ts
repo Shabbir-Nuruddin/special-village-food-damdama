@@ -26,7 +26,7 @@ export const SITE: Site = {
     weight: 400,
     upper: false,
   },
-  scene: "chulha",
+  scene: "pour",
   align: "left",
   hero: {
     title: [
@@ -92,9 +92,28 @@ export const SITE: Site = {
     address: { en: "Plus code 844H+5J, Damdama, Gurugram", hi: "प्लस कोड 844H+5J, दमदमा, गुरुग्राम" },
     note: { en: "A reviewer’s tip: “I suggest to call the owner to inform no. Of person and when you are visiting so he can make things ready for you.”", hi: "एक रिव्यू की सलाह: आने से पहले मालिक को कॉल करके लोगों की गिनती और समय बता दें, ताकि सब तैयार रहे।" },
   },
+  pour: { from: "jug", into: "kulhad", liquid: "#eceedd", foam: "#ffffff", thick: 1.2 },
+  story: [
+    { kicker: { en: "The chaach", hi: "छाछ" }, title: { en: "Masala chaach, poured cold.", hi: "ठंडी मसाला छाछ।" }, quote: "Awesome desi food, specially the masala chach, sanson ke saag and bajre ke roti with generous quantity of white butter" },
+    { kicker: { en: "The chulha", hi: "चूल्हा" }, title: { en: "Rotis straight off the chulha.", hi: "चूल्हे से सीधी रोटियां।" }, quote: "Ladies of the house prepared fresh Rotis on chullah with fresh butter added on top. Dal, kadhi and saag were also tasty." },
+    { kicker: { en: "The lake", hi: "झील" }, title: { en: "With Damdama lake in view.", hi: "दमदमा झील के नज़ारे के साथ।" }, quote: "Authentic, tasty Haryanvi thali with amazing vibe and perfect view of damdama lake" },
+  ],
+  build: {
+    title: { en: "Plan your visit in a few taps", hi: "कुछ टैप में अपनी विज़िट प्लान करें" },
+    body: { en: "Coming as a big group? Guests say book ahead. Pick the food and the day, and it goes on WhatsApp.", hi: "बड़ा ग्रुप? मेहमान कहते हैं पहले बुक करें। खाना और दिन चुनें, मैसेज व्हाट्सऐप पर जाएगा।" },
+    items: [
+      { en: "Special thali", hi: "स्पेशल थाली" },
+      { en: "Masala chaach", hi: "मसाला छाछ" },
+      { en: "Sarson ka saag & bajra roti", hi: "सरसों का साग और बाजरे की रोटी" },
+      { en: "Chulha rotis with butter", hi: "मक्खन वाली चूल्हे की रोटी" },
+    ],
+    people: true,
+    when: true,
+    hello: { en: "Hi Special Village Food, I'd like to book:", hi: "नमस्ते स्पेशल विलेज फ़ूड, मुझे बुक करना है:" },
+  },
   waHello: {
     en: "Hi Special Village Food, we'd like to come for the thali. Date: , time: , people: ",
     hi: "नमस्ते स्पेशल विलेज फ़ूड, हम थाली खाने आना चाहते हैं। तारीख़: , समय: , लोग: ",
   },
-  order: ["feature", "dishes", "gallery", "reviews", "visit"],
+  order: ["build", "feature", "dishes", "gallery", "reviews", "visit"],
 };
